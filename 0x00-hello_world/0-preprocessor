@@ -1,2 +1,0 @@
-#!/bin/bash
-gcc -E $cfile -o c
