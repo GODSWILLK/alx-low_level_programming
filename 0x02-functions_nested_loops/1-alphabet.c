@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the alphabet in lowercase.
+ * print_alphabet - print alphabet of letters
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
-int main(void)
-{
-	int n;
 
-	for (n = 'a'; n <= 'z'; n++)
+void print_alphabet(void)
+{
+	int i;
+
+	for (i = 'a'; i <= 'z'; i++)
+
 	{
-		_putchar(n);
+		_putchar(i);
 	}
 	_putchar('\n');
 }
